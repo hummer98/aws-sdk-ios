@@ -15,11 +15,11 @@
 
 #import <Security/Security.h>
 
-#import "AWSIoTMQTTClient.h"
-#import "AWSMQTTSession.h"
-#import "AWSSRWebSocket.h"
-#import "AWSIoTWebSocketOutputStream.h"
-#import "AWSIoTKeychain.h"
+#import <AWSIoT/AWSIoTMQTTClient.h>
+#import <AWSIoT/AWSMQTTSession.h>
+#import <AWSIoT/AWSSRWebSocket.h>
+#import <AWSIoT/AWSIoTWebSocketOutputStream.h>
+#import <AWSIoT/AWSIoTKeychain.h>
 
 @implementation AWSIoTMQTTTopicModel
 @end

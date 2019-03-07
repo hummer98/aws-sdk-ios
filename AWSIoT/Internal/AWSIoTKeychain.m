@@ -14,7 +14,7 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSIoTKeychain.h"
+#import <AWSIoT/AWSIoTKeychain.h>
 
 NSString *const AWSIoTKeychainStartPrivateKeyTag = @"-----BEGIN RSA PRIVATE KEY-----\n";
 NSString *const AWSIoTKeychainEndPrivateKeyTag = @"\n-----END RSA PRIVATE KEY-----";

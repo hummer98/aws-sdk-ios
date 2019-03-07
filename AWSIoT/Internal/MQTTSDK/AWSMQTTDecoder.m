@@ -14,7 +14,7 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSMQTTDecoder.h"
+#import <AWSIoT/AWSMQTTDecoder.h>
 
 @interface AWSMQTTDecoder() {
         NSInputStream*  stream;

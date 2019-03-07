@@ -15,7 +15,7 @@
 
 #import "AWSIoTDataService.h"
 #import "AWSIoTService.h"
-#import "AWSIoTMQTTTypes.h"
+#import <AWSIoT/AWSIoTMQTTTypes.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

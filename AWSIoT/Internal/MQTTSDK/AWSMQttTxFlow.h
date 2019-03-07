@@ -14,7 +14,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AWSMQTTMessage.h"
+#import <AWSIoT/AWSMQTTMessage.h>
 
 @interface AWSMQttTxFlow : NSObject 
 

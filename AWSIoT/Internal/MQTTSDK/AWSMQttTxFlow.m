@@ -13,7 +13,7 @@
 // permissions and limitations under the License.
 //
 
-#import "AWSMQttTxFlow.h"
+#import <AWSIoT/AWSMQttTxFlow.h>
 
 @implementation AWSMQttTxFlow
 

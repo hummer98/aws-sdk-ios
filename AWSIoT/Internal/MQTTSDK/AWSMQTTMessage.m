@@ -14,7 +14,7 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSMQTTMessage.h"
+#import <AWSIoT/AWSMQTTMessage.h>
 
 @implementation AWSMQTTMessage
 

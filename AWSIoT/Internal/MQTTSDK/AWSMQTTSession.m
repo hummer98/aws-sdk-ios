@@ -14,10 +14,10 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSMQTTSession.h"
-#import "AWSMQTTDecoder.h"
-#import "AWSMQTTEncoder.h"
-#import "AWSMQttTxFlow.h"
+#import <AWSIoT/AWSMQTTSession.h>
+#import <AWSIoT/AWSMQTTDecoder.h>
+#import <AWSIoT/AWSMQTTEncoder.h>
+#import <AWSIoT/AWSMQttTxFlow.h>
 
 @interface AWSMQTTSession () <AWSMQTTDecoderDelegate,AWSMQTTEncoderDelegate>  {
     AWSMQTTSessionStatus    status;  //Current status of the session. Can be one of the values specified in the MQTTSessionStatus enum

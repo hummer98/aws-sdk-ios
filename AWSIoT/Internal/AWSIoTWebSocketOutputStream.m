@@ -16,8 +16,8 @@
 #import <objc/runtime.h>
 #import <Foundation/Foundation.h>
 #import "AWSCocoaLumberjack.h"
-#import "AWSIoTWebSocketOutputStream.h"
-#import "AWSSRWebSocket.h"
+#import <AWSIoT/AWSIoTWebSocketOutputStream.h>
+#import <AWSIoT/AWSSRWebSocket.h>
 
 @interface AWSIoTWebSocketOutputStreamFactory()
 

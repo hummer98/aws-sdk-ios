@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
-#import "AWSIoTCSR.h"
-#import "AWSIoTKeychain.h"
+#import <AWSIoT/AWSIoTCSR.h>
+#import <AWSIoT/AWSIoTKeychain.h>
 
 unsigned char seqTag = 0x30;
 unsigned char setTag = 0x31;

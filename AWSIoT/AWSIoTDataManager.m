@@ -15,7 +15,7 @@
 
 #import "AWSSignature.h"
 #import "AWSIoTDataManager.h"
-#import "AWSIoTMQTTClient.h"
+#import <AWSIoT/AWSIoTMQTTClient.h>
 #import "AWSSynchronizedMutableDictionary.h"
 #import "AWSIoTModel.h"
 #import "AWSCocoaLumberjack.h"

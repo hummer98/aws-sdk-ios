@@ -14,7 +14,7 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSMQTTEncoder.h"
+#import <AWSIoT/AWSMQTTEncoder.h>
 
 @interface AWSMQTTEncoder () {
     NSOutputStream* stream;

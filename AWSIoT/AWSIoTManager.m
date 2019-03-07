@@ -14,8 +14,8 @@
 //
 
 #import "AWSIoTManager.h"
-#import "AWSIoTKeychain.h"
-#import "AWSIoTCSR.h"
+#import <AWSIoT/AWSIoTKeychain.h>
+#import <AWSIoT/AWSIoTCSR.h>
 #import <AWSCore/AWSSynchronizedMutableDictionary.h>
 
 static NSString *const AWSInfoIoTManager = @"IoTManager";

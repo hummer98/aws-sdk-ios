@@ -15,7 +15,7 @@
 //
 
 #import "AWSCocoaLumberjack.h"
-#import "AWSSRWebSocket.h"
+#import <AWSIoT/AWSSRWebSocket.h>
 #import <errno.h>
 
 //
